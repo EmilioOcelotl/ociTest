@@ -1,0 +1,26 @@
+{
+  "name": "ocitest",
+  "version": "1.0.0",
+  "description": "ociTest",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./index.html",
+    "build": "parcel build ./index.html --public-url ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mediapipe/pose": "^0.5.1675469404",
+    "@tensorflow-models/pose-detection": "^2.1.0",
+    "@tensorflow/tfjs-backend-wasm": "^4.4.0",
+    "@tensorflow/tfjs-backend-webgl": "^4.4.0",
+    "@tensorflow/tfjs-converter": "^4.4.0",
+    "@tensorflow/tfjs-core": "^4.4.0",
+    "parcel": "^2.8.3"
+  },
+  "devDependencies": {
+    "buffer": "^5.7.1",
+    "process": "^0.11.10"
+  }
+}
