@@ -91,7 +91,20 @@
       <button id="startButton">Play</button>
     </div>
 
+    <video id="video" playsinline style="
+					 display:none;
+				         -webkit-transform: scaleX(-1);
+					 transform: scaleX(-1);
+					 visibility: hidden;
+					 width: auto;
+					 height: auto;
+					 
+					 ">
+    </video>
+
+
     <canvas id="myCanvas" width="1000px" height="1000px"></canvas>
+
     <script src="https://unpkg.com/hydra-synth"></script>
     <script src="https://unpkg.com/osc-js"></script>
     <script type="module" src="index.js"></script>
